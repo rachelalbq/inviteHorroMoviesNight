@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Estilo para a imagem */
+img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Botões */
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#accept-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#accept-btn:hover {
+    background-color: #45a049;
+}
+
+#decline-btn {
+    background-color: #f44336;
+    color: white;
+    position: relative;
+}
+
+#decline-btn:hover {
+    transform: scale(1.1);
+}
